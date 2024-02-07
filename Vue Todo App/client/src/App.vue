@@ -22,8 +22,13 @@ export default {
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .container {
-  max-width: 600px;
+  /* max-width: 600px; */
+  max-width: 100%;
   margin: 0 auto;
 }
 
